@@ -1,0 +1,31 @@
+.wrapper-personal-info {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.form-personal-info {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  .form-personal-info .form-personal-info-heading {
+    margin-bottom: 30px; }
+  .form-personal-info .form-control-profile {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .form-personal-info .form-control-profile:focus {
+      z-index: 2; }
+  .form-personal-info input[type="text"] {
+    margin-bottom: 16px;
+    border-radius: 3px;
+    height: 30px;
+    width: 100%; }
+  .form-personal-info label {
+    width: 150px; }
+
+/*# sourceMappingURL=personalInfo.css.map */

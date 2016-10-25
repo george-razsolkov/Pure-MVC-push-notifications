@@ -1,0 +1,43 @@
+@import 'config-variables';
+@import 'mixins';
+
+.wrapper-personal-info {	
+	margin-top: 30px;
+ 	margin-bottom: 30px;
+}
+
+.form-personal-info {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-personal-info-heading {
+	  margin-bottom: 30px;
+	}
+
+	.form-control-profile {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 3px;
+		@include box-sizing($box-model);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: 16px;
+	   border-radius: 3px;
+	   height: 30px;
+	   width: 100%;
+	}
+	
+	label {
+		width: 150px;
+	}
+	
+}

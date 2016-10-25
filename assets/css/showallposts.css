@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+
+
+.post-div {
+	display:block;
+	float:left;
+	background:#eee;
+	width:150px;
+	height:130px;
+	margin:3%;
+	border:2px solid #777;
+	background-size: 150px 130px;
+	
+}
+
+.post-div:hover { 
+    background-color: #eee;
+}
+
+.post-div a {
+	text-decoration:none;
+	text-align:center;
+	color:red;
+	font-weight:bold;
+	display:block;
+}
